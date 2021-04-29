@@ -1,16 +1,18 @@
 require('colors')
 
-const {showMenu} = require('./helpers/menu')
+const {showMenu, pause} = require('./helpers/menu')
 
 const main = async () => {
-    try{
-        console.log("hola mundo")
-        showMenu()
+ 
+    let opt = ''
+    
+    do {
+        opt = await showMenu()
+        
+        await pause()
     }
+    while ( opt !== "0")
 
-    catch{
-        throw err
-    }
 }
 
 main()
