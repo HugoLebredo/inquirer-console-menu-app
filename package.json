@@ -1,7 +1,7 @@
 {
-  "name": "console-menu-app",
-  "version": "0.0.1",
-  "description": "little task manager by console",
+  "name": "Inquirer-console-menu-app",
+  "version": "1.0.0",
+  "description": "little console task manager",
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
-    "inquirer": "^8.0.0"
+    "inquirer": "^8.0.0",
+    "uuid": "^8.3.2"
   }
 }

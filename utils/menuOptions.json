@@ -1,0 +1,30 @@
+[
+    {
+        "value": "1",
+        "name": "1. New Task"
+    },
+    {
+        "value": "2",
+        "name": "2. Task List"
+    },
+    {
+        "value": "3",
+        "name": "3. Accompished Tasks List"
+    },
+    {
+        "value": "4",
+        "name": "4. to-do List"
+    },
+    {
+        "value": "5",
+        "name": "5. Accompish Task(s)"
+    },
+    {
+        "value": "6",
+        "name": "6. Remove Task"
+    },
+    {
+        "value": "0",
+        "name": "0. Exit"
+    }
+]
